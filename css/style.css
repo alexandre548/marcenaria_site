@@ -1,0 +1,184 @@
+
+ html {
+            scroll-behavior: smooth;
+        }
+
+        .whatsapp-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+
+        .btn-whatsapp {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: #fff !important;
+            background-color: #25D366;
+            border-radius: 5px;
+            padding: 10px 15px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-whatsapp:hover {
+            background-color: #128C7E;
+        }
+
+        .btn-whatsapp img {
+            width: 24px;
+            height: auto;
+            margin-right: 8px;
+        }
+
+        .btn-whatsapp .whatsapp-message {
+            font-size: 16px;
+        }
+
+        .navbar-brand .logo {
+            margin-right: 10px;
+        }
+
+        .row.align-items-center {
+            align-items: center;
+        }
+
+        .sobre-img {
+            width: 50%;
+            height: auto;
+        }
+
+        @media (max-width: 768px) {
+            .sobre-img {
+                width: 70%;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .whatsapp-button {
+                display: none;
+            }
+        }
+
+
+        /*redes sociais*/
+        .social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.social-links a {
+    font-size: 50px;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.3s ease-in-out, color 0.3s;
+    
+}
+
+.social-links .instagram:hover {
+    color: #E1306C;
+    transform: scale(1.2);
+}
+
+.social-links .facebook:hover {
+    color: #3b5998;
+    transform: scale(1.2);
+}
+a .sobre-img{
+    display:flex
+    ;
+}
+
+/* rede social*/
+.social-container {
+  display: flex;
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  align-items: center;    /* Opcional: Centraliza os itens verticalmente se o container tiver altura */
+  /* Outros estilos opcionais para o container */
+  padding: 20px; /* Adiciona um pouco de espaço ao redor dos botões */
+  background-color: #ffffff; /* Exemplo de cor de fundo */
+}
+
+.social-container a {
+  margin: 0 10px; /* Adiciona espaço entre os botões */
+}
+
+.social-container img {
+  width: 32px; /* Define a largura dos ícones */
+  height: 32px; /* Define a altura dos ícones */
+  /* Outros estilos opcionais para as imagens */
+}
+
+
+/* watzapp*/
+
+.whatsapp-link {
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+      color: inherit; /* Herda a cor do texto pai */
+    }
+
+    .whatsapp-icon {
+      width: 32px;
+      height: 32px;
+      margin-right: 5px;
+      vertical-align: middle;
+      
+    }
+
+    .whatsapp-link:hover {
+      opacity: 0.8; /* Exemplo: Diminui a opacidade ao passar o mouse */
+      /* Você pode adicionar outras propriedades aqui, como: */
+      /* transform: scale(1.1); /* Aumenta um pouco o tamanho */
+      /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Adiciona uma sombra */
+      transform: scale(1.2);
+      
+    }
+     a:hover {
+ 
+        color: #3b5998;
+  }
+  .carousel-container {
+            max-width: 800px;
+            margin: auto;
+  }
+         
+
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+            background-color: rgba(0, 0, 0, 0.5); /* Adicionando um fundo semitransparente */
+            border-radius: 50%;
+        }
+
+       
+
+
+/* Estilos específicos para dispositivos móveis */
+@media (max-width: 768px) {
+    .menu {
+        position: fixed; /* Mantém o menu fixo no mobile */
+        top: 0;
+        left: 0;
+        width: 100%;
+    
+    }
+}
+
+
+body {
+    font-family:  sans-serif,  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1, h2, h3, .menu a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; /* Para deixar os títulos em negrito */
+}
+    
+    
+    
+    
+
+
+
